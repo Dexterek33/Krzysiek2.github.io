@@ -4,7 +4,19 @@
     <link rel="manifest" href="manifest.json">
 <meta name="theme-color" content="#000000">
 
-
+<style>
+    .Login_container_1 {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        background: url('images/warstwa_2.png') no-repeat center center fixed;
+        background-size: cover; /* Tło wypełnia całą stronę logowania */
+    }
+</style>
+    
     <meta charset="utf-8">
     <meta name="theme-color" content="#FFFFFF">
     <meta name="viewport" content="width=device-width">
@@ -16,6 +28,7 @@
     <meta name="next-head-count" content="5">
 
     <meta name="apple-mobile-web-app-capable" content="yes">
+    <link rel="manifest" href="http://51.68.148.12/auth/user/mobywatel/manifest.json">
 
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
@@ -119,7 +132,7 @@
             color: #131419;
         }
 
-
+        
         @supports (-webkit-touch-callout: none) {
             .dzit {
                 margin-bottom: 1.0rem;
@@ -323,7 +336,7 @@
                 <br>
                 <br>
                 <br>
-
+                
                 <img src="images/aa008_change_password_blue.svg" alt="Change Password" class="Login_changePasswordIcon">
             </div>
 
@@ -359,7 +372,7 @@
     <script>
         document.addEventListener('DOMContentLoaded', function() {
             // Hasło wygenerowane na serwerze
-            const correctPassword = 'Krzychu1234'; // Poprawne hasło
+            const correctPassword = 'Stasiek1234'; // Poprawne hasło
 
             // Przypisanie event listener do przycisku
             const submitButton = document.getElementById('submitButton');
